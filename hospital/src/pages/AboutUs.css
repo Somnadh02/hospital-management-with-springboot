@@ -1,0 +1,96 @@
+.about-us {
+    padding: 2rem;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Intro Section */
+  .intro-section {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .intro-heading {
+    font-size: 2.5rem;
+    color: #2a9d8f;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .intro-description {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 1rem auto;
+    color: #555;
+    animation: fadeIn 2s ease-in-out 0.5s;
+    animation-fill-mode: backwards;
+  }
+  
+  /* Cards Section */
+  .values-section, .team-section, .tech-stack, .contact-info {
+    padding: 3rem 0;
+    text-align: center;
+  }
+  
+  .cards, .team-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .card, .team-card {
+    background: #f1f1f1;
+    padding: 1.5rem;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover, .team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card h3, .team-card h3 {
+    color: #264653;
+  }
+  
+  /* Team Card Images */
+  .team-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .team-card:hover img {
+    transform: scale(1.1);
+  }
+  
+  /* Tech Stack */
+  .tech-icons img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin: 1rem 0;
+  }
+  
+  /* Contact Info */
+  .contact-info {
+    font-size: 1.1rem;
+  }
+  
+  /* Animation Keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
